@@ -6,6 +6,13 @@ be to write a sudoku solver.
 I wrote this solver using the pen and paper algorithms I use myself to solve sudoku puzzles, so it probably isn't the most efficient
 solver known to man.
 
+## Example Usage
+The easiest way to run this is to pass one of the example puzzles to STDIN.  For example:
+
+```
+./solver.py < puzzle-evil
+```
+
 ## Expected Input
 The puzzle should be input as 9 lines containing 9 characters each.  Use "." for empty spaces.  For example:
 
